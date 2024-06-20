@@ -1,6 +1,7 @@
-import { defineConfig } from 'eslint-define-config'
+// .eslintrc.js
+const { defineConfig } = require('eslint-define-config');
 
-export default defineConfig({
+module.exports = defineConfig({
   root: true,
   env: { browser: true, es2020: true },
   extends: [
@@ -21,4 +22,4 @@ export default defineConfig({
       { allowConstantExport: true },
     ],
   },
-})
+});

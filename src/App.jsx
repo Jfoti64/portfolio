@@ -1,5 +1,8 @@
+import React from 'react';
+import './index.css';
+
 function App() {
-  return <p>Home</p>;
+  return <p className="text-blue-500">Home</p>;
 }
 
 export default App;

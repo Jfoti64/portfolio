@@ -1,7 +1,13 @@
 import './index.css';
+import Intro from './components/Intro';
 
 function App() {
-  return <p className="text-blue-500">Home</p>;
+  return (
+    <div>
+      <p className="text-green-500">Home</p>
+      <Intro />
+    </div>
+  );
 }
 
 export default App;

@@ -1,4 +1,3 @@
-// .eslintrc.js
 const { defineConfig } = require('eslint-define-config');
 
 module.exports = defineConfig({
@@ -11,7 +10,7 @@ module.exports = defineConfig({
     'plugin:react-hooks/recommended',
     'plugin:prettier/recommended',
   ],
-  ignorePatterns: ['dist', '.eslintrc.cjs'],
+  ignorePatterns: ['dist', '.eslintrc.cjs', 'postcss.config.cjs', 'tailwind.config.js'],
   parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh'],

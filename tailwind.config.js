@@ -4,11 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#1da1f2',
-        secondary: '#14171a',
-      },
-      fontFamily: {
-        body: ['Nunito', 'sans-serif'],
+        customBackground: '#EDEDE9',
+        customHover: '#A1A1A1',
       },
     },
   },

@@ -1,10 +1,11 @@
 import './index.css';
 import Intro from './components/Intro';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div>
-      <p className="text-green-500">Home</p>
+    <div className="">
+      <Navbar />
       <Intro />
     </div>
   );

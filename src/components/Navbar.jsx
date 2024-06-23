@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="flex flex-row justify-between items-center p-5">
+    <div className="sticky top-0 z-50 flex flex-row justify-between items-center p-5 bg-customBackground backdrop-blur-md bg-opacity-70">
       <a href="#" className="text-2xl font-bold">
         Joshua Foti
       </a>

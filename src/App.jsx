@@ -11,10 +11,18 @@ function App() {
     <div className="flex flex-col items-center">
       <div className="flex flex-col gap-16 md:gap-24 lg:gap-32 w-full max-w-screen-lg">
         <Navbar />
-        <Intro />
-        <Projects />
-        <About />
-        <Contact />
+        <section id="home">
+          <Intro />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="about">
+          <About />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
         <Footer />
       </div>
     </div>

@@ -7,5 +7,18 @@ body {
 }
 
 section {
-  scroll-margin-top: 60px; /* Adjust this value based on your navbar height */
+  scroll-margin-top: 80px; /* Default value for larger screens */
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+  section {
+    scroll-margin-top: 100px; /* Adjust this value based on your navbar height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    scroll-margin-top: 120px; /* Adjust this value based on your navbar height for the smallest screens */
+  }
 }

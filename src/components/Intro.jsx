@@ -12,11 +12,18 @@ const Intro = () => {
         <a
           href="https://www.linkedin.com/in/joshua-foti-23676b182/"
           className="flex flex-row items-center gap-1"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faLinkedin} className="w-5 h-5" />
           <p>LinkedIn</p>
         </a>
-        <a href="https://github.com/Jfoti64" className="flex flex-row items-center gap-1">
+        <a
+          href="https://github.com/Jfoti64"
+          className="flex flex-row items-center gap-1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FontAwesomeIcon icon={faGithub} className="w-5 h-5" />
           <p>GitHub</p>
         </a>

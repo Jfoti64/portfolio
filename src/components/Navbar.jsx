@@ -14,7 +14,12 @@ const Navbar = () => {
         <a href="#contact" className="hover:text-customHover text-xl">
           Contact
         </a>
-        <a href="#resume" className="hover:text-customHover text-xl">
+        <a
+          href="public/JoshuaFotiResume.pdf"
+          className="hover:text-customHover text-xl"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Resume
         </a>
       </div>

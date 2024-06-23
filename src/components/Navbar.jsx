@@ -5,8 +5,8 @@ const Navbar = () => {
         Joshua Foti
       </a>
       <div className="flex flex-row gap-5">
-        <a href="#" className="hover:text-customHover text-xl">
-          Home
+        <a href="#projects" className="hover:text-customHover text-xl">
+          Projects
         </a>
         <a href="#about" className="hover:text-customHover text-xl">
           About

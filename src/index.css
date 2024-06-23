@@ -5,3 +5,7 @@
 body {
   @apply bg-customBackground;
 }
+
+section {
+  scroll-margin-top: 60px; /* Adjust this value based on your navbar height */
+}

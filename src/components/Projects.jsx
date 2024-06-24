@@ -43,7 +43,7 @@ const Projects = () => {
           <div className="w-full md:w-2/3">
             <div className="p-2">
               <img
-                src="public/Screenshot 2024-06-16 at 6.18.16 PM.png"
+                src="/Screenshot 2024-06-16 at 6.18.16 PM.png"
                 alt="SocialNet Screenshot"
                 className="w-full h-auto rounded-lg object-cover"
               />

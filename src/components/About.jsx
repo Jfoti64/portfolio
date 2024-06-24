@@ -38,24 +38,17 @@ const About = () => {
         <div className="w-full">
           <h2 className="text-2xl font-semibold mb-4">Tools</h2>
           <ul className="flex flex-wrap gap-2 justify-center">
-            {[
-              'GitHub',
-              'Vitest',
-              'Jest',
-              'Supertest',
-              'Postman',
-              'Netlify',
-              'Fly.io',
-              'Glitch',
-            ].map((tool) => (
-              <li
-                key={tool}
-                className="bg-skillBox rounded-lg shadow-md p-2 text-xl hover:bg-skillBoxHover transition-colors duration-200"
-                style={{ cursor: 'default', userSelect: 'none' }}
-              >
-                <span style={{ cursor: 'default', userSelect: 'none' }}>{tool}</span>
-              </li>
-            ))}
+            {['GitHub', 'Vite', 'Jest', 'Supertest', 'Postman', 'Netlify', 'Fly.io', 'Glitch'].map(
+              (tool) => (
+                <li
+                  key={tool}
+                  className="bg-skillBox rounded-lg shadow-md p-2 text-xl hover:bg-skillBoxHover transition-colors duration-200"
+                  style={{ cursor: 'default', userSelect: 'none' }}
+                >
+                  <span style={{ cursor: 'default', userSelect: 'none' }}>{tool}</span>
+                </li>
+              )
+            )}
           </ul>
         </div>
       </div>

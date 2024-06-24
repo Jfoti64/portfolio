@@ -8,8 +8,8 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="flex flex-col items-center">
-      <div className="flex flex-col gap-16 md:gap-24 lg:gap-32 w-full max-w-screen-lg">
+    <div className="flex flex-col items-center w-full">
+      <div className="flex flex-col gap-16 md:gap-24 lg:gap-32 w-full">
         <Navbar />
         <section id="home">
           <Intro />

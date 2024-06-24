@@ -34,36 +34,38 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="sticky top-0 z-50 flex flex-row justify-between items-center p-5 bg-customBackground bg-opacity-70 blurred-background">
-        <a href="#home" className="text-2xl font-bold">
-          Joshua Foti
-        </a>
-        <div className="md:hidden">
-          <button onClick={toggleMenu} className="text-xl focus:outline-none">
-            <FontAwesomeIcon
-              icon={isOpen ? faTimes : faBars}
-              className={`icon-transition ${isOpen ? 'icon-rotate' : ''}`}
-            />
-          </button>
-        </div>
-        <div className="hidden md:flex flex-row gap-5 md:items-center">
-          <a href="#projects" className="hover:text-customHover text-xl">
-            Projects
+      <div className="sticky top-0 z-50 w-full bg-customBackground bg-opacity-70 blurred-background">
+        <div className="flex justify-between items-center p-5 w-full max-w-6xl mx-auto">
+          <a href="#home" className="text-2xl font-bold">
+            Joshua Foti
           </a>
-          <a href="#about" className="hover:text-customHover text-xl">
-            About
-          </a>
-          <a href="#contact" className="hover:text-customHover text-xl">
-            Contact
-          </a>
-          <a
-            href="public/JoshuaFotiResume.pdf"
-            className="hover:text-customHover text-xl"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Resume
-          </a>
+          <div className="md:hidden">
+            <button onClick={toggleMenu} className="text-xl focus:outline-none">
+              <FontAwesomeIcon
+                icon={isOpen ? faTimes : faBars}
+                className={`icon-transition ${isOpen ? 'icon-rotate' : ''}`}
+              />
+            </button>
+          </div>
+          <div className="hidden md:flex flex-row gap-5 md:items-center">
+            <a href="#projects" className="hover:text-customHover text-xl">
+              Projects
+            </a>
+            <a href="#about" className="hover:text-customHover text-xl">
+              About
+            </a>
+            <a href="#contact" className="hover:text-customHover text-xl">
+              Contact
+            </a>
+            <a
+              href="public/JoshuaFotiResume.pdf"
+              className="hover:text-customHover text-xl"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
+          </div>
         </div>
       </div>
       {isOpen && (

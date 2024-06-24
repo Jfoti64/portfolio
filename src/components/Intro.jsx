@@ -38,7 +38,7 @@ const Intro = () => {
       className="opacity-0 transform translate-y-10 transition-all duration-1000 ease-in-out flex flex-col items-center justify-center text-center"
     >
       <h1 className="text-4xl font-bold mb-4">Fullstack Developer</h1>
-      <p className="text-xl mb-8 w-2/3">
+      <p className="text-xl lg:text-2xl mb-8 w-2/3">
         I can help you bring your ideas to life with seamless and engaging user experiences.
       </p>
       <div className="flex space-x-4">

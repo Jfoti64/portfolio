@@ -36,7 +36,9 @@ const Contact = () => {
       className="opacity-0 transform translate-y-10 transition-all duration-1000 ease-in-out flex flex-col items-center justify-center text-center p-5 bg-customBackground"
     >
       <h2 className="text-3xl font-bold mb-4">Contact</h2>
-      <p className="text-xl mb-8 max-w-2xl">If you have any questions, feel free to reach out.</p>
+      <p className="text-xl mb-8 lg:text-2xl max-w-2xl">
+        If you have any questions, feel free to reach out.
+      </p>
       <div className="flex flex-col items-center space-y-4">
         <div>
           <p className="text-lg">

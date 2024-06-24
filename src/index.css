@@ -37,3 +37,16 @@ section {
 .animate-slide-in {
   animation: slideIn 1.5s forwards;
 }
+
+.icon-transition {
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-rotate {
+  transform: rotate(90deg);
+}
+
+.blurred-background {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+}

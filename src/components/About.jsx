@@ -34,7 +34,7 @@ const About = () => {
     <div className="flex justify-center w-full">
       <div
         ref={aboutRef}
-        className="opacity-0 transform translate-y-10 transition-all duration-1000 ease-in-out flex flex-col md:flex-row items-center justify-center text-center p-5 bg-customBackground gap-5 w-full max-w-screen-lg lg:max-w-screen-l"
+        className="opacity-0 transform translate-y-10 transition-all duration-1000 ease-in-out flex flex-col md:flex-row items-center justify-center text-center p-5 bg-customBackground gap-5 w-full max-w-screen-md lg:max-w-screen-lg"
       >
         <div className="flex flex-col items-center md:w-2/3">
           <h1 className="text-4xl lg:text-5xl font-bold mb-4">About Me</h1>

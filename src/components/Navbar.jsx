@@ -5,6 +5,7 @@ import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef(null);
+  const buttonRef = useRef(null);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -18,7 +19,12 @@ const Navbar = () => {
     };
 
     const handleClickOutside = (event) => {
-      if (menuRef.current && !menuRef.current.contains(event.target)) {
+      if (
+        menuRef.current &&
+        !menuRef.current.contains(event.target) &&
+        buttonRef.current &&
+        !buttonRef.current.contains(event.target)
+      ) {
         setIsOpen(false);
       }
     };
@@ -40,7 +46,7 @@ const Navbar = () => {
             Joshua Foti
           </a>
           <div className="md:hidden">
-            <button onClick={toggleMenu} className="text-xl focus:outline-none">
+            <button onClick={toggleMenu} ref={buttonRef} className="text-xl focus:outline-none">
               <FontAwesomeIcon
                 icon={isOpen ? faTimes : faBars}
                 className={`icon-transition ${isOpen ? 'icon-rotate' : ''}`}
@@ -73,13 +79,13 @@ const Navbar = () => {
           ref={menuRef}
           className="fixed top-16 left-0 right-0 bg-customBackground blurred-background bg-opacity-70 p-5 shadow-lg z-50 flex flex-col gap-5 items-center"
         >
-          <a href="#projects" className="hover:text-customHover text-xl">
+          <a href="#projects" className="hover:text-customHover text-xl" onClick={toggleMenu}>
             Projects
           </a>
-          <a href="#about" className="hover:text-customHover text-xl">
+          <a href="#about" className="hover:text-customHover text-xl" onClick={toggleMenu}>
             About
           </a>
-          <a href="#contact" className="hover:text-customHover text-xl">
+          <a href="#contact" className="hover:text-customHover text-xl" onClick={toggleMenu}>
             Contact
           </a>
           <a
@@ -87,6 +93,7 @@ const Navbar = () => {
             className="hover:text-customHover text-xl"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={toggleMenu}
           >
             Resume
           </a>

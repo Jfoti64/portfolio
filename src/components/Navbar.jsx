@@ -64,7 +64,7 @@ const Navbar = () => {
               Contact
             </a>
             <a
-              href="public/JoshuaFotiResume.pdf"
+              href="/JoshuaFotiResume.pdf"
               className="hover:text-customHover text-xl"
               target="_blank"
               rel="noopener noreferrer"

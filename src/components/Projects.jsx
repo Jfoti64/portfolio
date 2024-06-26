@@ -86,12 +86,12 @@ const Projects = () => {
             </ul>
           </div>
           <div className="w-full md:w-1/3 mt-0">
-            <h2 className="text-2xl lg:text-3xl font-semibold mb-4">SocialNet</h2>
-            <p className="text-xl lg:text-2xl mb-4">
-              SocialNet is a social networking platform built with React and Node.js. It features
-              user authentication, profile creation, friend requests, and interactive posts with
-              likes and comments. My role included front-end and back-end development, ensuring
-              responsiveness and optimizing performance.
+            <h1 className="text-2xl lg:text-3xl font-bold mb-4">SocialNet</h1>
+            <p className="text-xl lg:text-xl mb-4">
+              SocialNet is a social networking platform built with React and Node.js. It offers
+              secure user authentication, profile creation, friend requests, and interactive posts
+              with likes and comments. This project involved front-end development with React and
+              back-end development with Node.js, ensuring a responsive and engaging user experience.
             </p>
           </div>
         </div>

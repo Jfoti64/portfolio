@@ -74,31 +74,31 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      {isOpen && (
-        <div
-          ref={menuRef}
-          className="fixed top-16 left-0 right-0 bg-customBackground blurred-background bg-opacity-70 p-5 shadow-lg z-50 flex flex-col gap-5 items-center"
+      <div
+        ref={menuRef}
+        className={`fixed top-16 left-0 right-0 bg-customBackground blurred-background bg-opacity-70 p-5 shadow-lg z-50 flex flex-col gap-5 items-center transition-all duration-300 ${
+          isOpen ? 'opacity-100 max-h-screen' : 'opacity-0 max-h-0 overflow-hidden'
+        }`}
+      >
+        <a href="#projects" className="hover:text-customHover text-xl" onClick={toggleMenu}>
+          Projects
+        </a>
+        <a href="#about" className="hover:text-customHover text-xl" onClick={toggleMenu}>
+          About
+        </a>
+        <a href="#contact" className="hover:text-customHover text-xl" onClick={toggleMenu}>
+          Contact
+        </a>
+        <a
+          href="public/JoshuaFotiResume.pdf"
+          className="hover:text-customHover text-xl"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={toggleMenu}
         >
-          <a href="#projects" className="hover:text-customHover text-xl" onClick={toggleMenu}>
-            Projects
-          </a>
-          <a href="#about" className="hover:text-customHover text-xl" onClick={toggleMenu}>
-            About
-          </a>
-          <a href="#contact" className="hover:text-customHover text-xl" onClick={toggleMenu}>
-            Contact
-          </a>
-          <a
-            href="public/JoshuaFotiResume.pdf"
-            className="hover:text-customHover text-xl"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={toggleMenu}
-          >
-            Resume
-          </a>
-        </div>
-      )}
+          Resume
+        </a>
+      </div>
     </>
   );
 };

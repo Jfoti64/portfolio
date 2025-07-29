@@ -37,7 +37,7 @@ const Intro = () => {
       ref={introRef}
       className="opacity-0 transform translate-y-10 transition-all duration-1000 ease-in-out flex flex-col items-center justify-center text-center"
     >
-      <h1 className="text-4xl font-bold mb-4">Fullstack Developer</h1>
+      <h1 className="text-4xl font-bold mb-4">Joshua Foti</h1>
       <p className="text-xl lg:text-2xl mb-8 w-2/3">
         Recent IT grad certified with Security+, Network+, A+, AWS Cloud Practitioner, ITIL F, and Linux Essentials.
       </p>

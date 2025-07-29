@@ -39,7 +39,7 @@ const Intro = () => {
     >
       <h1 className="text-4xl font-bold mb-4">Joshua Foti</h1>
       <p className="text-xl lg:text-2xl mb-8 w-2/3">
-        Recent IT grad certified with Security+, Network+, A+, AWS Cloud Practitioner, ITIL F, and Linux Essentials.
+        Recent IT grad certified with Security+, Network+, A+, AWS Cloud Practitioner, ITIL Foundation, and Linux Essentials.
       </p>
       <div className="flex space-x-4">
         <a

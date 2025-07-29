@@ -39,7 +39,7 @@ const Intro = () => {
     >
       <h1 className="text-4xl font-bold mb-4">Fullstack Developer</h1>
       <p className="text-xl lg:text-2xl mb-8 w-2/3">
-        I can help you bring your ideas to life with seamless and engaging user experiences.
+        Recent IT grad certified with Security+, Network+, A+, AWS Cloud Practitioner, ITIL F, and Linux Essentials.
       </p>
       <div className="flex space-x-4">
         <a

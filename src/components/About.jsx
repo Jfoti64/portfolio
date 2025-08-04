@@ -39,21 +39,25 @@ const About = () => {
         <div className="flex flex-col items-center md:w-2/3">
           <h1 className="text-4xl lg:text-5xl font-bold mb-4">About Me</h1>
           <p className="text-xl lg:text-2xl mb-8 max-w-2xl text-left">
-            Hi, I&apos;m Joshua Foti—an IT professional based in Panama City, FL. I earned a
-            B.S. in Information Technology from Western Governors University and hold
-            CompTIA Security+, Network+, and A+ along with AWS Cloud Practitioner, ITIL
-            Foundation, and Linux Essentials certifications.
+            Hi, I&apos;m Joshua Foti—an IT professional based in Panama City, FL. I earned a B.S. in
+            Information Technology from Western Governors University and hold certifications
+            including CompTIA Security+, Network+, A+, AWS Cloud Practitioner, ITIL Foundation, and
+            Linux Essentials.
           </p>
           <p className="text-xl lg:text-2xl mb-8 max-w-2xl text-left">
-            I thrive in collaborative environments and seek opportunities to grow in IT
-            within a team that values creativity, innovation, and excellence.
+            I specialize in IT General Controls, policy compliance, and structured content
+            evaluation, with hands-on experience assessing AI-generated outputs for accuracy and
+            risk signals. I&apos;m especially drawn to IT Risk & Compliance and Information Security
+            roles where I can contribute to system integrity, governance, and continuous
+            improvement.
           </p>
           <p className="text-xl lg:text-2xl mb-8 max-w-2xl text-left">
-            Outside of work, you&apos;ll find me watching hockey, exercising, learning
-            Spanish, or indulging in my love for film and traveling. Let&apos;s connect and
-            keep systems running smoothly.
+            Outside of work, you&apos;ll find me watching hockey, exercising, learning Spanish, or
+            indulging in my love for film and travel. Let&apos;s connect and work together to build
+            secure, resilient systems that support real-world impact.
           </p>
         </div>
+
         <div className="flex flex-col items-center md:w-1/3 mt-8 md:mt-0 space-y-4">
           {/* Certifications Section */}
           <div className="w-full">

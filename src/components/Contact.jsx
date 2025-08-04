@@ -37,7 +37,8 @@ const Contact = () => {
     >
       <h2 className="text-3xl font-bold mb-4">Contact</h2>
       <p className="text-xl mb-8 lg:text-2xl max-w-2xl">
-        If you have any questions, feel free to reach out.
+        I'm currently open to opportunities in IT Risk, Compliance, and Information Security.
+        Whether you're a recruiter, hiring manager, or fellow technologist — feel free to reach out!
       </p>
       <div className="flex flex-col items-center space-y-4">
         <div>
